@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html"; charset="GBK"/>
+  <title>伪类选择符</title>
+  <style type="text/css">
+     div{
+     	width:250px;
+     	height:50px;
+     	border:2px solid red;
+     	margin:30px;
+     }
+  </style>
+</head>
+<body>
+  <div style="border:3px solid black; border-radius:15px;
+              box-shadow:-10px -8px 6px #444;"> 半径为15px的圆角边框\左上阴影</div>
+  <div style="border:3px solid black; border-radius:20px;
+              box-shadow:-10px -8px 6px #444;"> 半径为20px的圆角边框\右上阴影</div>
+  <div style="border:3px solid black; border-radius:16px 40px;
+              box-shadow:-10px 8px 6px #444;"> 半径为16px 40px的圆角边框\左下阴影</div>
+  <div style="box-shadow: 10px 8px 6px #444;">右下阴影</div>
+</body>
+</html>
